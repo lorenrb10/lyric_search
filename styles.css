@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  font-family: Merriweather Sans, sans-serif;
   margin: 0;
 }
 
@@ -22,16 +24,16 @@ button:focus {
 }
 
 header {
-  background-image: url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-image: url(https://cdn.myportfolio.com/e69ed093-f4b7-4560-9746-767ab335fbc8/0b805fa4-ee40-4ee4-86ed-beb288ab93fa_rw_1200.jpg?h=28166ee3b4b9e8bee0cbd264c8d2a253);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  color: #fff;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 0;
+  padding: 200px 0;
   /* Position this relative so we can position its descendant using absolute */
   position: relative;
 }
@@ -75,21 +77,21 @@ form button {
   position: absolute;
   top: 2px;
   right: 2px;
-  background-color: #e056fd;
+  background-color: #0b0d87;
   border: 0;
   border-radius: 50px;
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   padding: 13px 30px;
 }
 
 /* Injecting the btn class via JS */
 .btn {
-  background-color: #8d56fd;
+  background-color: #359aff;
   border: 0;
   border-radius: 10px;
-  color: #fff;
-  padding: 4px 10px;
+  color: #ffffff;
+  padding: 8px 20px;
 }
 
 /* We won't see these styles until we fetch the data from the API */
